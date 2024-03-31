@@ -8,12 +8,16 @@ import { ProduitsComponent } from './produits/produits.component';
 import { AjoutProduitComponent } from './ajout-produit/ajout-produit.component';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { CategorieComponent } from './categorie/categorie.component';
+import { AjoutCategorieComponent } from './ajout-categorie/ajout-categorie.component';
 @NgModule({
   declarations: [
     AppComponent,
     AccueilComponent,
     ProduitsComponent,
-    AjoutProduitComponent
+    AjoutProduitComponent,
+    CategorieComponent,
+    AjoutCategorieComponent
   ],
   imports: [
     BrowserModule,

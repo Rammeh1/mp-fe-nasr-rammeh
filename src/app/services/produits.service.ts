@@ -10,7 +10,7 @@ export class ProduitsService {
   
   // Url du service web de gestion de produits
   // commune pour toutes les méthodes
-  urlHote="http://localhost:8080/produits/";
+  urlHote="http://localhost:3333/produits/";
 
   constructor(private http :HttpClient)
   {
